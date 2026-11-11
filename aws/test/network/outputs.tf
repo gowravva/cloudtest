@@ -1,0 +1,1 @@
+# No outputs - this stack manages no resources.
