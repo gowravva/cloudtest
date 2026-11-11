@@ -1,0 +1,1 @@
+{"operation": "create", "target_addresses": ["data.aws_ami.amazon_linux_2023", "data.aws_key_pair.ec2_key_pair_ref", "aws_instance.webapp_01_instance"]}
