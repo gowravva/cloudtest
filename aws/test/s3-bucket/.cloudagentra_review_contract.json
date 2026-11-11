@@ -1,0 +1,1 @@
+{"operation": "create", "target_addresses": ["aws_s3_bucket.gowri_test_prod1", "aws_s3_bucket_public_access_block.gowri_test_prod1_public_access_block", "aws_s3_bucket_server_side_encryption_configuration.gowri_test_prod1_encryption", "aws_s3_bucket_ownership_controls.gowri_test_prod1_ownership_controls"]}
