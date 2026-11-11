@@ -1,0 +1,1 @@
+# No stack-owned variables. var.aws_region is declared by the host in provider.tf.

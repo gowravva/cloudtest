@@ -1,0 +1,29 @@
+# OpenTofu / Terraform working directories
+**/.terraform/*
+**/.tf_data/*
+.terraform.tfstate.lock.info
+
+# State files — never commit; state lives in the remote backend
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Local overrides (per-developer tweaks shouldn't land in git)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
